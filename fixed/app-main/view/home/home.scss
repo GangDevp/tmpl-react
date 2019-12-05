@@ -1,0 +1,74 @@
+  h1,
+  h2,
+  div {
+    font-weight: normal;
+    font-family: "微软雅黑", sans-serif;
+    text-align: center;
+  }
+
+  .index_logo {
+    height: 328px;
+    background: url(../../assets/logo.png) no-repeat center 0;
+    background-size: 388px 328px;
+    margin-top: 50px;
+  }
+
+  .index_info {
+    font-size: 16px;
+    margin: 50px;
+  }
+
+  .index_link {
+    width: 20%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  div{
+    :nth-child(1) {
+      padding-right: 10px;
+    }
+    :nth-child(2) {
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    :nth-child(3) {
+      position: relative;
+      padding-left: 10px;
+    }
+
+    :nth-child(2):before,
+    :nth-child(3):before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 80%;
+      width: 1px;
+      background-color: #c6c6c6;
+    }
+
+    a {
+      color: #607df0;
+      font-size: 13px;
+      text-decoration: none;
+    }
+    :nth-child(2) a,
+    :nth-child(3) a {
+      color: #6d6e6f;
+    }
+
+    :nth-child(2) a:hover,
+    :nth-child(3) a:hover {
+      color: #607df0;
+    }
+
+    
+  }
+
+  code {
+    background-color: #eee;
+    font-size: 16px;
+  }

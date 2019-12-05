@@ -1,0 +1,16 @@
+{
+  "links": [
+    {
+      "text": "KFront Base官网",
+      "url": "http://10.255.228.247:8085/#/base"
+    },
+    {
+      "text": "其他服务",
+      "url": "http://10.255.228.247:8083/public/app/index.html"
+    },
+    {
+      "text": "联系我们",
+      "url": "https://bs.kedacom.com/forum.php?mod=forumdisplay&fid=76"
+    }
+  ]
+}
